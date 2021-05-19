@@ -22,7 +22,7 @@
   "node": {
     "supportPolicy": ["all"],
     "semanticCommitScope": "node",
-    "rangeStrategy": "replace",
+    "rangeStrategy": "replace"
   },
   "packageRules": [
     {
