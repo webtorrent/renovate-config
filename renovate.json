@@ -32,6 +32,16 @@
       "updateTypes": ["minor", "patch"],
       "groupName": "webtorrent",
       "automerge": true
-    }
+    },
+    {
+      "packagePatterns": ["node"],
+      "allowedVersions": ">=10",
+      "rangeStrategy": "replace",
+      "semanticCommitScope": "node",
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
   ]
 }
