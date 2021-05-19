@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "config:base",
+    "docker:enableMajor",
+    "default:automergeDigest"
+  ],
+  "branchPrefix": "renovate_",
+  "semanticCommits": true,
+  "semanticCommitScope": "deps",
+  "labels": ["dependencies"],
+  "updateNotScheduled": false,
+  "stabilityDays": 1,
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  },
+  "masterIssue": true,
+  "masterIssueAutoclose": true,
+  "packageRules": [
+    {
+      "description": "Auto update non-major WebTorrent dependencies",
+      "packageNames": ["bittorrent-dht", "bittorrent-protocol", "create-torrent", "magnet-uri", "memory-chunk-store", "torrent-discovery"],
+      "stabilityDays": 0,
+      "updateTypes": ["minor", "patch"],
+      "groupName": "webtorrent",
+      "automerge": true
+    }
+  ]
+}
