@@ -21,7 +21,8 @@
   "masterIssueAutoclose": true,
   "node": {
     "supportPolicy": ["all"],
-    "semanticCommitScope": "node"
+    "semanticCommitScope": "node",
+    "rangeStrategy": "replace",
   },
   "packageRules": [
     {
