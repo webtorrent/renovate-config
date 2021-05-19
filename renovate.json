@@ -4,6 +4,7 @@
     "docker:enableMajor",
     "default:automergeDigest"
   ],
+  "rangeStrategy": "replace",
   "branchPrefix": "renovate_",
   "semanticCommits": true,
   "semanticCommitScope": "deps",
@@ -13,6 +14,9 @@
   "vulnerabilityAlerts": {
     "labels": ["security"]
   },
+  "postUpdateOptions": [
+    "npmDedupe"
+  ],
   "masterIssue": true,
   "masterIssueAutoclose": true,
   "packageRules": [
