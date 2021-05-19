@@ -19,6 +19,10 @@
   ],
   "masterIssue": true,
   "masterIssueAutoclose": true,
+  "node": {
+    "supportPolicy": ["all"],
+    "semanticCommitScope": "node"
+  },
   "packageRules": [
     {
       "description": "Auto update non-major WebTorrent dependencies",
