@@ -34,14 +34,8 @@
       "automerge": true
     },
     {
-      "packagePatterns": ["node"],
-      "allowedVersions": ">=10",
-      "rangeStrategy": "replace",
-      "semanticCommitScope": "node",
-      "automerge": true,
-      "major": {
-        "automerge": false
-      }
-    },
+      "packageNames": ["node"],
+      "enabled": false
+    }
   ]
 }
