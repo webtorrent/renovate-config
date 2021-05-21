@@ -22,7 +22,7 @@
   "packageRules": [
     {
       "description": "Auto update non-major WebTorrent dependencies",
-      "packageNames": ["bittorrent-dht", "bittorrent-protocol", "create-torrent", "immediate-chunk-store", "magnet-uri", "memory-chunk-store", "torrent-discovery"],
+      "packagePatterns": ["^@webtorrent/", "bittorrent-dht", "bittorrent-protocol", "create-torrent", "immediate-chunk-store", "magnet-uri", "memory-chunk-store", "torrent-discovery"],
       "stabilityDays": 0,
       "updateTypes": ["minor", "patch"],
       "groupName": "webtorrent",
