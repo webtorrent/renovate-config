@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "rangeStrategy": "bump",
+  "rangeStrategy": "replace",
   "branchPrefix": "renovate_",
   "semanticCommits": true,
   "semanticCommitScope": "deps",
@@ -14,6 +14,10 @@
   "postUpdateOptions": [
     "npmDedupe"
   ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
   "masterIssue": true,
   "masterIssueAutoclose": true,
   "prHourlyLimit": 0,
