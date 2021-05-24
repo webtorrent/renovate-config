@@ -1,15 +1,12 @@
 {
   "extends": [
-    "config:base",
-    "docker:enableMajor",
-    "default:automergeDigest"
+    "config:base"
   ],
   "rangeStrategy": "bump",
   "branchPrefix": "renovate_",
   "semanticCommits": true,
   "semanticCommitScope": "deps",
   "labels": ["dependencies"],
-  "updateNotScheduled": false,
   "stabilityDays": 1,
   "vulnerabilityAlerts": {
     "labels": ["security"]
@@ -19,6 +16,7 @@
   ],
   "masterIssue": true,
   "masterIssueAutoclose": true,
+  "prHourlyLimit": 0,
   "packageRules": [
     {
       "description": "Auto update non-major WebTorrent dependencies",
