@@ -51,6 +51,15 @@
       "automerge": true
     },
     {
+      "description": "Auto update trusted non-major dev dependencies",
+      "packagePatterns": [
+        "semantic-release"
+      ],
+      "stabilityDays": 1,
+      "updateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
       "packageNames": ["node"],
       "enabled": false
     }
