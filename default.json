@@ -43,7 +43,8 @@
         "torrent-piece",
         "ut_metadata",
         "ut_pex",
-        "utp-native"
+        "utp-native",
+        "webtorrent"
       ],
       "stabilityDays": 0,
       "updateTypes": ["minor", "patch"],
