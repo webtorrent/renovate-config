@@ -55,7 +55,8 @@
     {
       "description": "Auto update trusted non-major dev dependencies",
       "packagePatterns": [
-        "semantic-release"
+        "semantic-release",
+        "tape"
       ],
       "stabilityDays": 1,
       "updateTypes": ["minor", "patch"],
