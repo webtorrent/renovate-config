@@ -55,6 +55,7 @@
     {
       "description": "Auto update trusted non-major dev dependencies",
       "packagePatterns": [
+        "nodemon",
         "semantic-release",
         "tape"
       ],
