@@ -40,6 +40,7 @@
         "simple-peer",
         "simple-sha1",
         "speedometer",
+        "string2compact",
         "torrent-discovery",
         "torrent-piece",
         "ut_metadata",
