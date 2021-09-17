@@ -56,8 +56,11 @@
     {
       "description": "Auto update trusted non-major dev dependencies",
       "packagePatterns": [
+        "date-fns",
+        "husky",
         "nodemon",
         "semantic-release",
+        "stylus",
         "tape"
       ],
       "stabilityDays": 1,
