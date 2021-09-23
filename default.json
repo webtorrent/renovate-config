@@ -56,9 +56,15 @@
     {
       "description": "Auto update trusted non-major dev dependencies",
       "packagePatterns": [
+        "^@babel/",
+        "chromecasts",
         "date-fns",
+        "depcheck",
+        "electron",
         "husky",
+        "music-metadata",
         "nodemon",
+        "plist",
         "semantic-release",
         "stylus",
         "tape"
