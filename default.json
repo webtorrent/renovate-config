@@ -59,6 +59,7 @@
         "^@babel/",
         "chromecasts",
         "date-fns",
+        "debug",
         "depcheck",
         "electron",
         "electron-notarize",
