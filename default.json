@@ -29,6 +29,7 @@
         "bittorrent-dht", "bittorrent-peerid", "bittorrent-protocol", "bittorrent-tracker", "bittorrent-lsd",
         "chunk-store-stream",
         "create-torrent",
+        "fs-chunk-store",
         "immediate-chunk-store",
         "lt_donthave",
         "magnet-uri",
