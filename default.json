@@ -26,6 +26,7 @@
       "packagePatterns": [
         "^@webtorrent/",
         "addr-to-ip-port",
+        "bencode",
         "bittorrent-dht", "bittorrent-peerid", "bittorrent-protocol", "bittorrent-tracker", "bittorrent-lsd",
         "chunk-store-stream",
         "create-torrent",
